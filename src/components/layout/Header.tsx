@@ -78,10 +78,10 @@ export default function Header() {
           }
         `}
       >
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <nav className="flex items-center justify-between h-16 lg:h-20">
+        <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+          <nav className="flex items-center justify-between h-14 sm:h-16 lg:h-20">
           {/* Left: Back + Logo */}
-          <div className="flex items-center gap-3 flex-shrink-0">
+          <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
             {!isHome && (
               <button
                 type="button"
@@ -105,7 +105,7 @@ export default function Header() {
                 alt="Oztayteks Logo"
                 width={140}
                 height={40}
-                className={`h-8 lg:h-10 w-auto cursor-pointer hover:opacity-80 transition-opacity ${
+                className={`h-6 sm:h-8 lg:h-10 w-auto cursor-pointer hover:opacity-80 transition-opacity ${
                   !isScrolled && isHome
                     ? 'brightness-0 invert drop-shadow-[0_2px_10px_rgba(0,0,0,0.35)]'
                     : ''
@@ -116,7 +116,7 @@ export default function Header() {
           </div>
 
           {/* Menu - Right */}
-          <div className="flex items-center space-x-6">
+          <div className="flex items-center space-x-2 sm:space-x-4 lg:space-x-6">
             {/* Desktop Navigation */}
             <div
               className={`hidden lg:flex items-center space-x-8 ${currentLanguage === 'ar' ? 'space-x-reverse' : ''}`}
@@ -137,21 +137,23 @@ export default function Header() {
             </div>
 
             {/* Right Side Actions */}
-            <div className="flex items-center space-x-4">
-              {/* Language Switcher */}
-              <LanguageSwitcher />
+            <div className="flex items-center space-x-1 sm:space-x-2 lg:space-x-4">
+              {/* Language Switcher - Hidden on very small screens */}
+              <div className="hidden xs:block sm:block">
+                <LanguageSwitcher />
+              </div>
 
               {/* Shopping Cart Icon */}
               <button
                 type="button"
                 onClick={() => setIsCartOpen(true)}
-                className="p-3 -m-1 min-h-11 min-w-11 text-mutedForeground hover:text-primary transition-colors duration-200 relative group"
+                className="p-2 sm:p-3 -m-1 min-h-10 min-w-10 sm:min-h-11 sm:min-w-11 text-mutedForeground hover:text-primary transition-colors duration-200 relative group"
                 aria-label="Quote Basket"
                 aria-haspopup="dialog"
                 aria-expanded={isCartOpen}
               >
                 <svg
-                  className="w-6 h-6"
+                  className="w-5 h-5 sm:w-6 sm:h-6"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -170,11 +172,11 @@ export default function Header() {
                 )}
               </button>
 
-              {/* Mobile Menu Button - Placeholder for future logic */}
+              {/* Mobile Menu Button */}
               <button
                 type="button"
                 onClick={() => setIsMenuOpen(true)}
-                className="lg:hidden p-3 -m-1 min-h-11 min-w-11 text-mutedForeground hover:text-primary transition-colors duration-200"
+                className="lg:hidden p-2 sm:p-3 -m-1 min-h-10 min-w-10 sm:min-h-11 sm:min-w-11 text-mutedForeground hover:text-primary transition-colors duration-200"
                 aria-label="Open menu"
                 aria-haspopup="dialog"
                 aria-expanded={isMenuOpen}
@@ -250,6 +252,12 @@ export default function Header() {
                     </svg>
                   </Link>
                 ))}
+              </div>
+
+              {/* Language Switcher in Mobile Menu */}
+              <div className="mt-6 pt-6 border-t border-border">
+                <p className="text-xs text-mutedForeground uppercase tracking-wider mb-3">{t('nav.language') || 'Dil'}</p>
+                <LanguageSwitcher />
               </div>
             </div>
 

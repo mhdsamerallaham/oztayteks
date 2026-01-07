@@ -19,7 +19,7 @@ export default function LanguageSwitcher() {
           onClick={() => handleLanguageChange(lang.code)}
           disabled={isLoading}
           className={`
-            px-3 py-2 min-h-11 min-w-11 text-sm font-medium rounded-lg transition-all duration-200
+            px-2 py-1.5 sm:px-3 sm:py-2 min-h-9 min-w-9 sm:min-h-11 sm:min-w-11 text-xs sm:text-sm font-medium rounded-lg transition-all duration-200
             ${currentLanguage === lang.code
               ? 'bg-primary text-white shadow-lg'
               : 'bg-surface text-mutedForeground hover:text-foreground hover:bg-surface-muted border border-border'
