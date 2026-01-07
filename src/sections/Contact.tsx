@@ -59,21 +59,21 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
 
           {/* Left Column: Locations List */}
-          <div className="lg:col-span-1 space-y-6">
+          <div className="lg:col-span-1 space-y-4 lg:space-y-6">
 
             {/* Primary Contact Card (Static) */}
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 border-l-4 border-l-amber-600 mb-8">
+            <div className="bg-white p-5 lg:p-6 rounded-xl shadow-sm border border-slate-200 border-l-4 border-l-amber-600 mb-6 lg:mb-8">
               <div className="flex items-start space-x-4">
-                <div className="p-3 bg-amber-50 rounded-lg text-amber-700">
-                  <UserIcon className="w-6 h-6" />
+                <div className="p-2.5 lg:p-3 bg-amber-50 rounded-lg text-amber-700">
+                  <UserIcon className="w-5 h-5 lg:w-6 lg:h-6" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-slate-900">{t('contact.person') || "Ayşe Turan"}</h3>
-                  <p className="text-sm text-slate-500 mb-2">Firma Yetkilisi</p>
-                  <a href="tel:+905395945303" className="flex items-center text-slate-700 font-medium hover:text-amber-700 transition-colors">
+                  <h3 className="text-base lg:text-lg font-bold text-slate-900">{t('contact.person') || "Ayşe Turan"}</h3>
+                  <p className="text-xs lg:text-sm text-slate-500 mb-2">Firma Yetkilisi</p>
+                  <a href="tel:+905395945303" className="flex items-center text-slate-700 font-medium hover:text-amber-700 transition-colors text-sm lg:text-base">
                     <PhoneIcon className="w-4 h-4 mr-2" />
                     +90 (539) 594 53 03
                   </a>
@@ -82,13 +82,13 @@ export default function Contact() {
             </div>
 
             {/* Interactive Locations Cards */}
-            <div className="space-y-4">
+            <div className="space-y-3 lg:space-y-4">
               {locations.map((loc) => (
                 <div
                   key={loc.id}
                   onClick={() => setActiveLocation(loc.id)}
                   className={`
-                    p-6 rounded-xl cursor-pointer transition-all duration-300
+                    p-4 lg:p-6 rounded-xl cursor-pointer transition-all duration-300
                     ${activeLocation === loc.id
                       ? 'bg-slate-900 shadow-xl scale-[1.02] border-slate-900'
                       : 'bg-white shadow-sm border-slate-100 hover:shadow-md hover:border-slate-300'
@@ -96,21 +96,21 @@ export default function Contact() {
                     border
                   `}
                 >
-                  <div className="flex items-start space-x-4">
+                <div className="flex items-start space-x-3 lg:space-x-4">
                     <div className={`
-                      p-2 rounded-lg mt-1 transition-colors
+                      p-2 rounded-lg mt-0.5 transition-colors flex-shrink-0
                       ${activeLocation === loc.id ? 'bg-slate-800 text-amber-500' : 'bg-slate-50 text-slate-600'}
                     `}>
-                      <MapPinIcon className="w-5 h-5" />
+                      <MapPinIcon className="w-4 h-4 lg:w-5 lg:h-5" />
                     </div>
-                    <div>
-                      <h4 className={`font-bold mb-1 transition-colors ${activeLocation === loc.id ? 'text-white' : 'text-slate-900'}`}>
+                    <div className="min-w-0 flex-1">
+                      <h4 className={`font-bold mb-1 text-sm lg:text-base transition-colors ${activeLocation === loc.id ? 'text-white' : 'text-slate-900'}`}>
                         {t(loc.titleKey)}
                       </h4>
-                      <p className={`text-sm mb-2 leading-relaxed transition-colors ${activeLocation === loc.id ? 'text-slate-300' : 'text-slate-600'}`}>
+                      <p className={`text-xs lg:text-sm mb-2 leading-relaxed transition-colors line-clamp-2 ${activeLocation === loc.id ? 'text-slate-300' : 'text-slate-600'}`}>
                         {t(loc.addressKey)}
                       </p>
-                      <span className={`text-sm font-medium transition-colors ${activeLocation === loc.id ? 'text-amber-500' : 'text-amber-700'}`}>
+                      <span className={`text-xs lg:text-sm font-medium transition-colors ${activeLocation === loc.id ? 'text-amber-500' : 'text-amber-700'}`}>
                         {t(loc.phoneKey)}
                       </span>
                     </div>
@@ -121,25 +121,21 @@ export default function Contact() {
           </div>
 
           {/* Right Column: Map */}
-          <div className="lg:col-span-2 min-h-[500px] h-full rounded-2xl overflow-hidden shadow-2xl border border-slate-200 relative bg-slate-100 sticky top-24">
+          <div className="lg:col-span-2 h-[280px] sm:h-[350px] lg:h-auto lg:min-h-[500px] rounded-xl lg:rounded-2xl overflow-hidden shadow-lg lg:shadow-2xl border border-slate-200 relative bg-slate-100 lg:sticky lg:top-24">
             <iframe
-              // Note: Standard iframe embed src for address search usually requires API key or uses maps.google.com/maps?q=...&output=embed
-              // Using the robust embed format without API key for public addresses:
-              // src={`https://maps.google.com/maps?q=${locationMaps[activeLocation]}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
-              key={activeLocation} // Force re-render on change
+              key={activeLocation}
               width="100%"
               height="100%"
-              style={{ border: 0, minHeight: '600px' }}
+              style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              className="grayscale hover:grayscale-0 transition-all duration-700 w-full h-full"
-              // Actual working src for free embed
+              className="grayscale hover:grayscale-0 transition-all duration-700 w-full h-full absolute inset-0"
               src={`https://maps.google.com/maps?q=${locationMaps[activeLocation]}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
             ></iframe>
 
-            {/* Map Overlay Info */}
-            <div className="absolute top-6 left-6 bg-white/95 backdrop-blur-md p-6 rounded-xl shadow-lg max-w-sm border border-slate-100 animate-fade-in">
+            {/* Map Overlay Info - Hidden on mobile */}
+            <div className="hidden lg:block absolute top-6 left-6 bg-white/95 backdrop-blur-md p-5 rounded-xl shadow-lg max-w-xs border border-slate-100 animate-fade-in">
               <p className="text-xs text-amber-700 font-bold uppercase tracking-wider mb-2">
                 {t(`contact.locations.${activeLocation}.title`)}
               </p>

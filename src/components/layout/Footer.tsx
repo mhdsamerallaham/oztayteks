@@ -2,6 +2,7 @@
 
 import { useTranslate } from '@/hooks/useTranslate'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Footer() {
   const { t } = useTranslate()
@@ -14,9 +15,13 @@ export default function Footer() {
 
           {/* Column 1: Company Profile */}
           <div className="space-y-6">
-            <h2 className="text-2xl font-bold tracking-tighter text-white">
-              OZTAYTEKS
-            </h2>
+            <Image
+              src="/images/OZTAy-Photoroom.png"
+              alt="Oztayteks Logo"
+              width={160}
+              height={45}
+              className="h-10 w-auto brightness-0 invert"
+            />
             <p className="text-slate-400 font-light leading-relaxed max-w-xs">
               {t('footer.description')}
             </p>

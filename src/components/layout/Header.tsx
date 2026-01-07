@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback, useMemo } from 'react'
 import LanguageSwitcher from '@/components/ui/LanguageSwitcher'
 import { useTranslate } from '@/hooks/useTranslate'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname, useRouter } from 'next/navigation'
 import { useCart } from '@/context/CartContext'
 import QuoteBasketDrawer from '@/components/cart/QuoteBasketDrawer'
@@ -98,16 +99,19 @@ export default function Header() {
               </button>
             )}
 
-            <Link href="/">
-              <h1
-                className={`text-lg lg:text-[1.35rem] font-bold tracking-wide cursor-pointer hover:opacity-80 transition-opacity ${
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/images/OZTAy-Photoroom.png"
+                alt="Oztayteks Logo"
+                width={140}
+                height={40}
+                className={`h-8 lg:h-10 w-auto cursor-pointer hover:opacity-80 transition-opacity ${
                   !isScrolled && isHome
-                    ? 'text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.35)]'
-                    : 'text-foreground'
+                    ? 'brightness-0 invert drop-shadow-[0_2px_10px_rgba(0,0,0,0.35)]'
+                    : ''
                 }`}
-              >
-                OZTAYTEKS
-              </h1>
+                priority
+              />
             </Link>
           </div>
 

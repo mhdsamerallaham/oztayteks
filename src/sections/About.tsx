@@ -16,19 +16,19 @@ export default function About() {
 
   return (
     <Section id="about" className="overflow-hidden bg-white">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-20 items-start">
 
         {/* Left: Content - Focusing on clean, readable, B2B text */}
-        <div className="space-y-10 animate-slide-up order-2 lg:order-1">
+        <div className="space-y-8 lg:space-y-10 animate-slide-up order-2 lg:order-1">
 
-          <div className="space-y-6">
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 tracking-tight leading-tight">
+          <div className="space-y-4 lg:space-y-6">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold text-slate-900 tracking-tight leading-tight">
               {t('about.title') || "1999’dan Beri Tekstilde Güvenilir Üretim"}
             </h2>
             <div className="w-16 h-1 bg-amber-700/60"></div>
           </div>
 
-          <div className="space-y-8 text-lg text-slate-700 leading-relaxed font-light">
+          <div className="space-y-6 lg:space-y-8 text-base lg:text-lg text-slate-700 leading-relaxed font-light">
             <p>
               {t('about.description') || "ÖZTAYTEKS, 1999 yılından bu yana kumaş üretimi ve tedariki alanında faaliyet gösteren bir tekstil firmasıdır. Uzun yıllara dayanan deneyimimiz, üretim süreçlerimize istikrar, kalite ve süreklilik kazandırmaktadır."}
             </p>
@@ -41,13 +41,13 @@ export default function About() {
           </div>
 
           {/* Clean, Net Numbers */}
-          <div className="grid grid-cols-2 gap-x-8 gap-y-10 pt-8 border-t border-slate-100">
+          <div className="grid grid-cols-2 gap-x-6 gap-y-6 lg:gap-x-8 lg:gap-y-10 pt-6 lg:pt-8 border-t border-slate-100">
             {stats.map((stat, idx) => (
               <div key={idx} className="flex flex-col">
-                <span className="text-3xl font-bold text-slate-900 font-heading tabular-nums tracking-tight">
+                <span className="text-2xl lg:text-3xl font-bold text-slate-900 font-heading tabular-nums tracking-tight">
                   {stat.value}
                 </span>
-                <span className="text-sm font-medium text-slate-500 mt-1">
+                <span className="text-xs lg:text-sm font-medium text-slate-500 mt-1">
                   {stat.label}
                 </span>
               </div>
@@ -56,11 +56,12 @@ export default function About() {
         </div>
 
         {/* Right: Image - Elegant Apartment/Fabric Context */}
-        <div className="relative h-[600px] lg:h-[750px] w-full bg-slate-100 order-1 lg:order-2">
+        <div className="relative h-[280px] sm:h-[350px] md:h-[450px] lg:h-[600px] xl:h-[700px] w-full bg-slate-100 order-1 lg:order-2 rounded-xl lg:rounded-none overflow-hidden">
           <Image
             src="/images/Elegant Decoration Ideas for a Luxury Apartment _.jpg"
             alt="Oztayteks Quality Fabrics"
             fill
+            sizes="(max-width: 1024px) 100vw, 50vw"
             className="object-cover"
             priority
           />

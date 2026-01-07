@@ -150,7 +150,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0 select-none overflow-hidden">
         <div className="absolute inset-0 md:hidden">
           <Image
-            src="/images/poster%20imege.png"
+            src="/images/poster-image.png"
             alt="Oztayteks hero"
             fill
             priority
@@ -164,7 +164,7 @@ export default function Hero() {
             className={`absolute inset-0 z-10 transition-opacity duration-300 ${videoReady ? 'opacity-0' : 'opacity-100'}`}
           >
             <Image
-              src="/images/poster%20imege.png"
+              src="/images/poster-image.png"
               alt="Oztayteks hero"
               fill
               priority
@@ -192,19 +192,19 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 container-custom text-center px-4">
-        <div className="max-w-5xl mx-auto space-y-8">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold text-white tracking-tight animate-fade-in drop-shadow-2xl">
+        <div className="max-w-5xl mx-auto space-y-5 sm:space-y-6 md:space-y-8">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white tracking-tight animate-fade-in drop-shadow-2xl">
             {t('hero.title') || "Masters of Textile Innovation"}
           </h1>
 
-          <p className="text-xl md:text-2xl text-slate-200 max-w-3xl mx-auto font-light leading-relaxed animate-slide-up [animation-delay:200ms] drop-shadow-md">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-slate-200 max-w-3xl mx-auto font-light leading-relaxed animate-slide-up [animation-delay:200ms] drop-shadow-md px-2">
             {t('hero.subtitle') || "Combining industrial precision with sustainable artistry to weave the fabrics of tomorrow."}
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8 animate-slide-up [animation-delay:400ms]">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4 md:pt-8 animate-slide-up [animation-delay:400ms]">
             <Link
               href="/contact"
-              className="min-w-[200px] inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed rounded-sm tracking-wide px-8 py-4 text-lg bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary backdrop-blur-sm"
+              className="min-w-[160px] sm:min-w-[180px] md:min-w-[200px] inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed rounded-sm tracking-wide px-5 py-3 sm:px-6 md:px-8 md:py-4 text-sm sm:text-base md:text-lg bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary backdrop-blur-sm"
             >
               {t('hero.contact_us') || "Contact Us"}
             </Link>
@@ -213,7 +213,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce cursor-pointer z-20">
+      <div className="hidden sm:block absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce cursor-pointer z-20">
         <div className="w-[1px] h-16 bg-gradient-to-b from-transparent via-white to-transparent" />
       </div>
     </section>
