@@ -37,7 +37,7 @@ export const KNITTED_PRODUCTS: ProductDetail[] = [
         id: 'lycra_suprem',
         nameKey: 'products.knitted_fabrics.items.lycra_suprem.name',
         descKey: 'products.knitted_fabrics.items.lycra_suprem.desc',
-        image: "/images/ürünler/Likralı Süprem örme.jpg",
+        image: "/images/ürünler/likrali-suprem-orme.jpg",
         category: 'weft',
         specs: {
             grammage: '160 - 240 gsm',
@@ -53,7 +53,7 @@ export const KNITTED_PRODUCTS: ProductDetail[] = [
         id: 'rib',
         nameKey: 'products.knitted_fabrics.items.rib.name',
         descKey: 'products.knitted_fabrics.items.rib.desc',
-        image: "/images/ürünler/Rib (Ribana) örme.jpg",
+        image: "/images/ürünler/rib-ribana-orme.jpg",
         category: 'weft',
         specs: {
             grammage: '180 - 300 gsm',
@@ -69,7 +69,7 @@ export const KNITTED_PRODUCTS: ProductDetail[] = [
         id: 'kaşkorse',
         nameKey: 'products.knitted_fabrics.items.kaşkorse.name',
         descKey: 'products.knitted_fabrics.items.kaşkorse.desc',
-        image: "/images/ürünler/Kaşkorse (2x2 Rib) örme.jpg",
+        image: "/images/ürünler/kaskorse-2x2-rib-orme.jpg",
         category: 'weft',
         specs: {
             grammage: '200 - 350 gsm',
@@ -85,7 +85,7 @@ export const KNITTED_PRODUCTS: ProductDetail[] = [
         id: 'interlok',
         nameKey: 'products.knitted_fabrics.items.interlok.name',
         descKey: 'products.knitted_fabrics.items.interlok.desc',
-        image: "/images/ürünler/İnterlok örme.jpg",
+        image: "/images/ürünler/interlok-orme.jpg",
         category: 'weft',
         specs: {
             grammage: '200 - 280 gsm',
@@ -101,7 +101,7 @@ export const KNITTED_PRODUCTS: ProductDetail[] = [
         id: 'pike',
         nameKey: 'products.knitted_fabrics.items.pike.name',
         descKey: 'products.knitted_fabrics.items.pike.desc',
-        image: "/images/ürünler/Pike Örme.jpg",
+        image: "/images/ürünler/pike-orme.jpg",
         category: 'weft',
         specs: {
             grammage: '170 - 250 gsm',
@@ -118,7 +118,7 @@ export const KNITTED_PRODUCTS: ProductDetail[] = [
         id: 'french_terry',
         nameKey: 'products.knitted_fabrics.items.french_terry.name',
         descKey: 'products.knitted_fabrics.items.french_terry.desc',
-        image: "/images/ürünler/French Terry (Üç İplik) örme.jpg",
+        image: "/images/ürünler/french-terry-uc-ipik-orme.jpg",
         category: 'functional',
         specs: {
             grammage: '200 - 280 gsm',
@@ -134,7 +134,7 @@ export const KNITTED_PRODUCTS: ProductDetail[] = [
         id: 'two_thread',
         nameKey: 'products.knitted_fabrics.items.two_thread.name',
         descKey: 'products.knitted_fabrics.items.two_thread.desc',
-        image: "/images/ürünler/İki İplik örme.jpg",
+        image: "/images/ürünler/iki-ipik-orme.jpg",
         category: 'functional',
         specs: {
             grammage: '280 - 380 gsm',
@@ -150,7 +150,7 @@ export const KNITTED_PRODUCTS: ProductDetail[] = [
         id: 'polar',
         nameKey: 'products.knitted_fabrics.items.polar.name',
         descKey: 'products.knitted_fabrics.items.polar.desc',
-        image: "/images/ürünler/polar örme.jpg",
+        image: "/images/ürünler/polar-orme.jpg",
         category: 'functional',
         specs: {
             grammage: '220 - 350 gsm',
@@ -166,7 +166,7 @@ export const KNITTED_PRODUCTS: ProductDetail[] = [
         id: 'scuba',
         nameKey: 'products.knitted_fabrics.items.scuba.name',
         descKey: 'products.knitted_fabrics.items.scuba.desc',
-        image: "/images/ürünler/Scuba (Dalgıç Kumaş) örme.jpeg",
+        image: "/images/ürünler/scuba-dalgic-kumas-orme.jpeg",
         category: 'functional',
         specs: {
             grammage: '250 - 450 gsm',
@@ -182,7 +182,7 @@ export const KNITTED_PRODUCTS: ProductDetail[] = [
         id: 'punto_roma',
         nameKey: 'products.knitted_fabrics.items.punto_roma.name',
         descKey: 'products.knitted_fabrics.items.punto_roma.desc',
-        image: "/images/ürünler/Punto Roma örme.jpeg",
+        image: "/images/ürünler/punto-roma-orme.jpeg",
         category: 'functional',
         specs: {
             grammage: '280 - 400 gsm',
@@ -199,7 +199,7 @@ export const KNITTED_PRODUCTS: ProductDetail[] = [
         id: 'raschel',
         nameKey: 'products.knitted_fabrics.items.raschel.name',
         descKey: 'products.knitted_fabrics.items.raschel.desc',
-        image: "/images/ürünler/Raşel örme.jpg",
+        image: "/images/ürünler/rashel-orme.jpg",
         category: 'warp',
         specs: {
             grammage: '80 - 250 gsm',
@@ -215,7 +215,7 @@ export const KNITTED_PRODUCTS: ProductDetail[] = [
         id: 'tricot',
         nameKey: 'products.knitted_fabrics.items.tricot.name',
         descKey: 'products.knitted_fabrics.items.tricot.desc',
-        image: "/images/ürünler/Trikot örme.jpg",
+        image: "/images/ürünler/trikot-orme.jpg",
         category: 'warp',
         specs: {
             grammage: '150 - 400 gsm',
@@ -231,19 +231,13 @@ export const KNITTED_PRODUCTS: ProductDetail[] = [
 
 // Available images from the ürünler folder
 const AVAILABLE_IMAGES = [
-    "/images/ürünler/French Terry (Üç İplik) örme.jpg",
-    "/images/ürünler/Kaşkorse (2x2 Rib) örme.jpg",
-    "/images/ürünler/Likralı Süprem örme.jpg",
-    "/images/ürünler/Pike Örme.jpg",
-    "/images/ürünler/Punto Roma örme.jpeg",
-    "/images/ürünler/Raşel örme.jpg",
-    "/images/ürünler/Rib (Ribana) örme.jpg",
-    "/images/ürünler/Scuba (Dalgıç Kumaş) örme.jpeg",
-    "/images/ürünler/Süprem (Single Jersey) örme.jpg",
-    "/images/ürünler/Trikot örme.jpg",
-    "/images/ürünler/polar örme.jpg",
-    "/images/ürünler/İki İplik örme.jpg",
-    "/images/ürünler/İnterlok örme.jpg"
+    "/images/ürünler/french-terry-uc-ipik-orme.jpg",
+    "/images/ürünler/kaskorse-2x2-rib-orme.jpg",
+    "/images/ürünler/likrali-suprem-orme.jpg",
+    "/images/ürünler/pike-orme.jpg",
+    "/images/ürünler/punto-roma-orme.jpeg",
+    "/images/ürünler/rashel-orme.jpg",
+    "/images/ürünler/rib-ribana-orme.jpg",
 ];
 
 // Function to get random image for woven products

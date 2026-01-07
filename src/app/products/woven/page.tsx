@@ -43,7 +43,7 @@ export default function WovenFabricsPage() {
             <div className="relative h-[50vh] lg:h-[60vh] w-full overflow-hidden flex items-center">
                 {/* Background Image */}
                 <Image
-                    src="/images/Dokuma Kumaşlar hero.webp"
+                    src="/images/dokuma-kumaslar-hero.webp"
                     alt={t('products.woven_fabrics.title')}
                     fill
                     sizes="100vw"

@@ -33,7 +33,7 @@ export default function KnittedFabricsPage() {
             <div className="relative h-[50vh] lg:h-[60vh] w-full overflow-hidden flex items-center">
                 {/* Background Image */}
                 <Image
-                    src="/images/örme kumaşı heder.jpg"
+                    src="/images/orme-kumasi-hero.jpg"
                     alt={t('products.knitted_fabrics.title')}
                     fill
                     sizes="100vw"
