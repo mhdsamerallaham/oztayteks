@@ -1,0 +1,284 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About Us",
+        "products": "Products",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "The New Definition of Textile Excellence",
+        "subtitle": "Blending modern technology with aesthetics, we produce sustainable fabrics that shape the fashion of tomorrow.",
+        "cta": "View Collection",
+        "contact_us": "Contact Us"
+    },
+    "about": {
+        "title": "Reliable Textile Production Since 1999",
+        "description": "OZTAYTEKS is a textile company operating in fabric production and supply since 1999. Our years of experience bring stability, quality, and continuity to our production processes.",
+        "description_2": "Our products are manufactured according to established quality standards from raw material to final control. We contribute to the production processes of businesses of various scales as a reliable supplier with functional, balanced, and long-lasting fabric solutions.",
+        "description_3": "Thanks to our current production infrastructure and planned work approach, we offer timely delivery and consistent quality. For OZTAYTEKS, partnership is not just about supplying products, but a long-term relationship built on continuity and mutual trust.",
+        "stats": {
+            "exp": "Years Experience",
+            "partners": "Active Partners",
+            "production": "Meters/Year Production",
+            "quality": "Quality Control Process"
+        }
+    },
+    "products": {
+        "title": "Production Expertise",
+        "subtitle": "In our facility equipped with high technology, we offer superior quality in both knitted and woven fabrics.",
+        "knitted_title": "Knitted Fabric Quality",
+        "knitted_desc": "Single jersey, Interlock, Salerno, and more. Our knitted fabric collection, offering flexibility, softness, and comfort, fully adapts to modern fashion trends and high durability requirements.",
+        "woven_title": "Woven Fabric Elegance",
+        "woven_desc": "Viscose, Cotton, and special blends. With its tightly woven structure, durability, and flawless touch, our woven fabrics make elegance and quality felt in every meter.",
+        "printed_title": "Printed Fabric Creativity",
+        "printed_desc": "With digital and rotary printing options, we bring an unlimited world of colors and patterns to the fabric. Original designs and vibrant colors bring life to your collections.",
+        "knitted_fabrics": {
+            "title": "Knitted Fabric Types",
+            "description": "At OZTAYTEKS, we lead the ready-to-wear sector with our knitted fabric collection produced at the highest quality standards. Our fabrics prepared with weft and warp knitting techniques offer both comfort and durability.",
+            "categories": {
+                "weft": "Weft Knitted Fabrics",
+                "functional": "Functional & Specialty Knitted Fabrics",
+                "warp": "Warp Knitted Fabrics"
+            },
+            "items": {
+                "suprem": {
+                    "name": "Single Jersey (Suprem)",
+                    "desc": "A lightweight, breathable, and flexible type of knitted fabric commonly used in daily wear and t-shirt production."
+                },
+                "lycra_suprem": {
+                    "name": "Lycra Single Jersey",
+                    "desc": "Elastane-enhanced single jersey fabric, preferred for products that fit the body and offer freedom of movement."
+                },
+                "rib": {
+                    "name": "Rib (Ribana)",
+                    "desc": "Rib fabrics with high elasticity and strong shape retention are generally used in collars, cuffs, and underwear."
+                },
+                "kaşkorse": {
+                    "name": "Interlock Rib (2x2 Rib)",
+                    "desc": "A type of rib preferred in tank tops, bodies, and flexible clothing products with its thick and durable structure."
+                },
+                "interlok": {
+                    "name": "Interlock",
+                    "desc": "A durable, smooth-surfaced type of knitted fabric with a double-layered and full structure. Often used in baby and outerwear products."
+                },
+                "pike": {
+                    "name": "Pique Knit",
+                    "desc": "A type of fabric preferred in polo shirts and summer products thanks to its porous structure and high air permeability."
+                },
+                "french_terry": {
+                    "name": "French Terry",
+                    "desc": "A knitted fabric widely used in sweatshirt and tracksuit production, keeping warm with its looped interior structure."
+                },
+                "two_thread": {
+                    "name": "Two-Thread Fleece",
+                    "desc": "Used in daily and sportswear products with its medium thickness, soft texture, and comfortable structure."
+                },
+                "polar": {
+                    "name": "Polar Fleece",
+                    "desc": "Preferred in winter products with its high thermal insulation, lightweight, and soft textured structure."
+                },
+                "scuba": {
+                    "name": "Scuba (Diving Fabric)",
+                    "desc": "A thick, flexible, and full structured knitted fabric used in modern designs with high shape retention."
+                },
+                "punto_roma": {
+                    "name": "Punto Roma",
+                    "desc": "A type of knitted fabric used in products such as trousers, skirts, and jackets with its durable, smooth surface and flexible structure."
+                },
+                "raschel": {
+                    "name": "Raschel",
+                    "desc": "A durable knitted fabric offering wide pattern options, used in mesh, lace, and technical textile products."
+                },
+                "tricot": {
+                    "name": "Tricot",
+                    "desc": "Suitable for underwear, sportswear, and technical usage areas with its smooth surface and lightweight structure."
+                }
+            },
+            "details_labels": {
+                "weight": "Weight",
+                "width": "Width",
+                "content": "Content",
+                "usage": "Usage Area",
+                "usage_areas": "Usage Areas",
+                "advantages": "Advantages / Features"
+            }
+        },
+        "woven_fabrics": {
+            "title": "Woven Fabric Types",
+            "description": "At OZTAYTEKS, we lead the textile industry with our woven fabric collection produced at the highest quality standards. From classic weaving to modern techniques, we offer solutions for every need with our wide product range.",
+            "categories": {
+                "classic": "Classic Woven Fabrics",
+                "specialty": "Specialty Woven Fabrics",
+                "luxury": "Luxury Woven Fabrics",
+                "utility": "Industrial Woven Fabrics",
+                "modern": "Modern Woven Fabrics"
+            },
+            "items": {
+                "poplin": {
+                    "name": "Poplin",
+                    "desc": "A classic woven fabric widely used for shirts and dresses with its thin, tightly woven and breathable structure."
+                },
+                "gabardin": {
+                    "name": "Gabardine",
+                    "desc": "Professional fabric preferred in trousers, jackets and workwear with its diagonal weave, durable and full structure."
+                },
+                "twill": {
+                    "name": "Twill",
+                    "desc": "Durable fabric used in trousers, coats and uniform production with its diagonal weave structure and wrinkle resistance."
+                },
+                "saten": {
+                    "name": "Satin",
+                    "desc": "Elegant fabric preferred in evening wear, dresses and linings with its smooth and shiny surface and luxurious appearance."
+                },
+                "oxford": {
+                    "name": "Oxford",
+                    "desc": "Durable and classic-looking shirt fabric produced with basket weave technique."
+                },
+                "vual": {
+                    "name": "Voile",
+                    "desc": "Fabric used in summer shirts and blouses with its very light, breathable and finely woven structure."
+                },
+                "denim": {
+                    "name": "Denim",
+                    "desc": "Iconic fabric used in jeans and jacket production with its thick, durable and indigo-dyed structure."
+                },
+                "flanel": {
+                    "name": "Flannel",
+                    "desc": "Comfortable fabric preferred in shirt and pajama production with its soft, slightly fuzzy and warm structure."
+                },
+                "keten": {
+                    "name": "Linen",
+                    "desc": "Premium fabric used in summer wear and home textiles with its natural fiber, breathable and cool properties."
+                },
+                "sifon": {
+                    "name": "Chiffon",
+                    "desc": "Elegant fabric used in dress and blouse production with its thin, semi-transparent and flowing structure."
+                },
+                "tafta": {
+                    "name": "Taffeta",
+                    "desc": "Luxury fabric used in evening wear and decorative textiles with its stiff, shiny and full stance."
+                },
+                "kadife": {
+                    "name": "Velvet",
+                    "desc": "Premium fabric preferred in jackets, dresses and upholstery with its pile surface, soft and luxurious feel."
+                },
+                "krep": {
+                    "name": "Crepe",
+                    "desc": "Elegant fabric used in dress and tunic production with its slightly wrinkled surface and flowing structure."
+                },
+                "panama": {
+                    "name": "Panama",
+                    "desc": "Durable fabric used in jackets and upholstery with its thick, open weave and durable structure."
+                },
+                "kanvas": {
+                    "name": "Canvas",
+                    "desc": "Heavy-duty fabric preferred in bags, workwear and industrial use with its very durable, thick woven structure."
+                },
+                "sambre": {
+                    "name": "Chambray",
+                    "desc": "Comfortable fabric used in casual wear with its denim-like, lightly woven structure."
+                },
+                "tencel": {
+                    "name": "Tencel Woven",
+                    "desc": "Sustainable fabric preferred in premium clothing with its natural, eco-friendly and soft surface structure."
+                },
+                "viskon": {
+                    "name": "Viscose Woven",
+                    "desc": "Comfortable fabric used in dress and blouse production with its flowing, cool and soft touch structure."
+                },
+                "polyester": {
+                    "name": "Polyester Woven",
+                    "desc": "Functional fabric preferred in uniforms and workwear with its wrinkle-resistant, easy-care structure."
+                },
+                "astar": {
+                    "name": "Lining Fabrics",
+                    "desc": "Practical fabric used in jacket, coat and dress inner surfaces with its thin, slippery and durable structure."
+                }
+            }
+        }
+    },
+    "printing": {
+        "title": "Printing and Design Services",
+        "subtitle": "Bringing your creativity to life on fabric.",
+        "description": "Unlimited pattern designs and printing solutions on fabric.",
+        "design_support": "Custom Design Support",
+        "design_desc": "Professional support in pattern studies and original creativity.",
+        "flexible_production": "Flexible Production",
+        "flexible_desc": "Flexibility to apply the customer's desired print on any fabric type."
+    },
+    "gallery": {
+        "title": "Visual Journey",
+        "subtitle": "Follow us on Instagram to see our latest productions and processes."
+    },
+    "about_page": {
+        "title": "Turkey’s Reliable Fabric Solution Partner – OZTAYTEKS",
+        "intro": "OZTAYTEKS is a deep-rooted professional textile company based in Istanbul, specializing in woven fabric production and wholesale supply. With our commitment to quality, trust, and continuity, we provide reliable fabric solutions to businesses both in Turkey and worldwide.",
+        "history_title": "From Our Roots to Today",
+        "history_text": "Operating in the sector since the 1990s, OZTAYTEKS has expanded its product portfolio over time, increased its production capacity, and adopted innovative production technologies by establishing digital printing infrastructure in its own facilities. Today, we serve a wide network of customers, primarily in Istanbul Osmanbey. This journey continues with a strict commitment to customer satisfaction and a constant quality improvement-oriented approach.",
+        "mission_title": "Our Mission",
+        "mission_text": "To provide our business partners with high-quality, durable, and functional fabric solutions; and to make production processes fast, reliable, and consistent.",
+        "vision_title": "Our Vision",
+        "vision_text": "To become a leading supplier in the textile industry; increasing reliability by establishing long-term collaborations with local and international brands and manufacturers.",
+        "values_title": "Our Values",
+        "values": {
+            "quality": "Quality: Production processes controlled at every stage",
+            "trust": "Trust: Long-term relationships with our business partners",
+            "transparency": "Transparency: Open communication and accurate information",
+            "flexibility": "Flexibility: Rapid adaptation to customer demands"
+        },
+        "stats_title": "OZTAYTEKS in Numbers",
+        "stats": {
+            "exp": "25+ Years Experience",
+            "partners": "50+ Global Partners",
+            "production": "1,000,000+ Meters Yearly Production",
+            "quality": "100% Quality Control"
+        },
+        "why_us_title": "Why Us?",
+        "why_us_points": [
+            "Consistent and traceable quality processes",
+            "Timely delivery and strong logistics",
+            "Flexible production options",
+            "Years of expertise and industry knowledge"
+        ],
+        "cta_title": "Let Us Create Solutions for You",
+        "cta_text": "We are here to create unique fabric solutions for every project and need. Contact us; let's plan the most suitable solution together with our expert team."
+    },
+    "contact": {
+        "title": "Contact Information",
+        "subtitle": "We are here to serve you with our head office, branches, and factory.",
+        "intro_title": "Get in Touch with Us",
+        "intro_subtitle": "For questions, collaborations, and product inquiries, you can contact our team directly.",
+        "whatsapp_btn": "Message Us Now",
+        "instagram_btn": "Follow Us on Instagram",
+        "locations": {
+            "head_office": {
+                "title": "Head Office",
+                "address": "Rumeli Caddesi No: 94/A, Osmanbey – Istanbul",
+                "phone": "+90 (212) 233 32 33"
+            },
+            "branch": {
+                "title": "Branch – Gesr Al Suez",
+                "address": "18 Building 9A, Next to Al-Jokha",
+                "phone": "+90 (539) 594 53 03"
+            },
+            "factory": {
+                "title": "Factory",
+                "address": "Feriköy Mahallesi, Bayır Sokak No: 32, Kurtuluş – Şişli / Istanbul",
+                "phone": "+90 (212) 233 75 05"
+            },
+            "merter_branch": {
+                "title": "Merter Branch",
+                "address": "Mehmet Nesih Özmen Mah. Fatih Cad. Söğüt Sok. No: 5/B – 5/F Merter – Istanbul",
+                "phone": "+90 (212) 539 00 69"
+            }
+        },
+        "person": "Ayşe Turan"
+    },
+    "footer": {
+        "description": "The address of quality and trust in textiles since 1999. Shaping the fashion of tomorrow with modern production technologies.",
+        "quick_links": "Quick Links",
+        "products_title": "Our Products",
+        "contact_title": "Contact",
+        "rights": "All rights reserved."
+    }
+}

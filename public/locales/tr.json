@@ -1,0 +1,284 @@
+{
+    "nav": {
+        "home": "Ana Sayfa",
+        "about": "Hakkımızda",
+        "products": "Ürünler",
+        "contact": "İletişim"
+    },
+    "hero": {
+        "title": "Tekstilde Mükemmelliğin Yeni Tanımı",
+        "subtitle": "Modern teknolojiyi estetikle harmanlayarak, yarının modasına yön veren sürdürülebilir kumaşlar üretiyoruz.",
+        "cta": "Koleksiyonu İncele",
+        "contact_us": "Bize Ulaşın"
+    },
+    "about": {
+        "title": "1999’dan Beri Tekstilde Güvenilir Üretim",
+        "description": "ÖZTAYTEKS, 1999 yılından bu yana kumaş üretimi ve tedariki alanında faaliyet gösteren bir tekstil firmasıdır. Uzun yıllara dayanan deneyimimiz, üretim süreçlerimize istikrar, kalite ve süreklilik kazandırmaktadır.",
+        "description_2": "Ürünlerimiz; hammaddeden son kontrole kadar belirlenmiş kalite standartları doğrultusunda üretilir. Fonksiyonel, dengeli ve uzun ömürlü kumaş çözümleriyle, farklı ölçeklerdeki işletmelerin üretim süreçlerine güvenilir bir tedarikçi olarak katkı sağlıyoruz.",
+        "description_3": "Güncel üretim altyapımız ve planlı çalışma anlayışımız sayesinde, zamanında teslimat ve tutarlı kalite sunarız. ÖZTAYTEKS için iş ortaklığı; yalnızca ürün sağlamak değil, süreklilik ve karşılıklı güven üzerine kurulu uzun vadeli bir ilişkidir.",
+        "stats": {
+            "exp": "Yıl Sektör Deneyimi",
+            "partners": "Aktif İş Ortağı",
+            "production": "Metre Yıllık Üretim",
+            "quality": "Kalite Kontrol Süreci"
+        }
+    },
+    "products": {
+        "title": "Üretim Uzmanlığımız",
+        "subtitle": "Yüksek teknolojiyle donatılmış tesisimizde, hem örme hem de dokuma kumaşlarda üstün kalite sunuyoruz.",
+        "knitted_title": "Örme Kumaş Kalitesi",
+        "knitted_desc": "Süprem, İnterlok, Selanik ve daha fazlası. Esneklik, yumuşaklık ve konforu bir arada sunan örme kumaş koleksiyonumuz, modern moda trendlerine ve yüksek mukavemet gereksinimlerine tam uyum sağlar.",
+        "woven_title": "Dokuma Kumaş Zarafeti",
+        "woven_desc": "Viskon, Pamuk ve özel karışımlar. Sık dokulu yapısı, dayanıklılığı ve kusursuz tuşesiyle dokuma kumaşlarımız, şıklığı ve kaliteyi her metrede hissettirir.",
+        "printed_title": "Baskılı Kumaş Yaratıcılığı",
+        "printed_desc": "Dijital ve rotasyon baskı seçenekleriyle, sınırsız renk ve desen dünyasını kumaşla buluşturuyoruz. Özgün tasarımlar ve canlı renkler, koleksiyonlarınıza hayat verir.",
+        "knitted_fabrics": {
+            "title": "Örme Kumaş Çeşitleri",
+            "description": "ÖZTAYTEKS olarak, en yüksek kalite standartlarında ürettiğimiz örme kumaş koleksiyonumuzla hazır giyim sektörüne yön veriyoruz. Atkı örme ve çözgü örme teknikleriyle hazırlanan kumaşlarımız, konforu ve dayanıklılığı bir arada sunar.",
+            "categories": {
+                "weft": "Atkı Örme Kumaşlar",
+                "functional": "Fonksiyonel & Özel Örme Kumaşlar",
+                "warp": "Çözgü Örme Kumaşlar"
+            },
+            "items": {
+                "suprem": {
+                    "name": "Süprem (Single Jersey)",
+                    "desc": "Hafif, nefes alabilen ve esnek yapısıyla günlük giyim ve tişört üretiminde yaygın olarak kullanılan örme kumaş türüdür."
+                },
+                "lycra_suprem": {
+                    "name": "Likralı Süprem",
+                    "desc": "Elastikiyet kazandırılmış süprem kumaş, vücuda oturan ve hareket özgürlüğü sunan ürünler için tercih edilir."
+                },
+                "rib": {
+                    "name": "Rib (Ribana)",
+                    "desc": "Yüksek elastikiyete sahip, form tutma özelliği güçlü olan rib kumaşlar genellikle yaka, manşet ve iç giyimde kullanılır."
+                },
+                "kaşkorse": {
+                    "name": "Kaşkorse (2x2 Rib)",
+                    "desc": "Kalın ve dayanıklı yapısıyla atlet, body ve esnek giyim ürünlerinde tercih edilen rib türüdür."
+                },
+                "interlok": {
+                    "name": "İnterlok",
+                    "desc": "Çift katlı ve tok yapısıyla dayanıklı, düzgün yüzeyli örme kumaş çeşididir. Bebek ve dış giyim ürünlerinde sıkça kullanılır."
+                },
+                "pike": {
+                    "name": "Pike Örme",
+                    "desc": "Gözenekli dokusu sayesinde hava geçirgenliği yüksek, polo yaka ve yazlık ürünlerde tercih edilen kumaş türüdür."
+                },
+                "french_terry": {
+                    "name": "French Terry (Üç İplik)",
+                    "desc": "İçi ilmekli yapısıyla sıcak tutan, sweatshirt ve eşofman üretiminde yaygın kullanılan örme kumaştır."
+                },
+                "two_thread": {
+                    "name": "İki İplik",
+                    "desc": "Orta kalınlıkta, yumuşak dokulu ve konforlu yapısıyla günlük ve spor giyim ürünlerinde kullanılır."
+                },
+                "polar": {
+                    "name": "Polar Örme",
+                    "desc": "Isı yalıtımı yüksek, hafif ve yumuşak dokulu yapısıyla kışlık ürünlerde tercih edilir."
+                },
+                "scuba": {
+                    "name": "Scuba (Dalgıç Kumaş)",
+                    "desc": "Kalın, esnek ve tok yapısıyla form tutma özelliği yüksek olan, modern tasarımlarda kullanılan örme kumaştır."
+                },
+                "punto_roma": {
+                    "name": "Punto Roma",
+                    "desc": "Dayanıklı, düzgün yüzeyli ve esnek yapısıyla pantolon, etek ve ceket gibi ürünlerde kullanılan örme kumaş türüdür."
+                },
+                "raschel": {
+                    "name": "Raşel",
+                    "desc": "File, dantel ve teknik tekstil ürünlerinde kullanılan, dayanıklı ve geniş desen seçenekleri sunan örme kumaştır."
+                },
+                "tricot": {
+                    "name": "Trikot",
+                    "desc": "Pürüzsüz yüzeyi ve hafif yapısıyla iç giyim, spor giyim ve teknik kullanım alanlarına uygundur."
+                }
+            },
+            "details_labels": {
+                "weight": "Gramaj",
+                "width": "En",
+                "content": "İçerik",
+                "usage": "Kullanım Alanı",
+                "usage_areas": "Kullanım Alanları",
+                "advantages": "Avantajlar / Özellikler"
+            }
+        },
+        "woven_fabrics": {
+            "title": "Dokuma Kumaş Çeşitleri",
+            "description": "ÖZTAYTEKS olarak, en yüksek kalite standartlarında ürettiğimiz dokuma kumaş koleksiyonumuzla tekstil sektörüne yön veriyoruz. Klasik dokumadan modern tekniklere kadar geniş ürün yelpazemiz ile her ihtiyaca uygun çözümler sunuyoruz.",
+            "categories": {
+                "classic": "Klasik Dokuma Kumaşlar",
+                "specialty": "Özel Dokuma Kumaşlar",
+                "luxury": "Lüks Dokuma Kumaşlar",
+                "utility": "Endüstriyel Dokuma Kumaşlar",
+                "modern": "Modern Dokuma Kumaşlar"
+            },
+            "items": {
+                "poplin": {
+                    "name": "Poplin",
+                    "desc": "İnce, sık dokulu ve nefes alabilen yapısıyla gömlek ve elbiselik kumaş olarak yaygın kullanılan klasik dokuma kumaştır."
+                },
+                "gabardin": {
+                    "name": "Gabardin",
+                    "desc": "Diyagonal dokulu, dayanıklı ve tok yapısıyla pantolon, ceket ve iş kıyafetlerinde tercih edilen profesyonel kumaştır."
+                },
+                "twill": {
+                    "name": "Twill (Dimi)",
+                    "desc": "Çapraz örgü yapısı ve kırışmaya dayanıklılığıyla pantolon, mont ve üniforma üretiminde kullanılan sağlam kumaştır."
+                },
+                "saten": {
+                    "name": "Saten",
+                    "desc": "Pürüzsüz ve parlak yüzeyi, lüks görünümüyle abiye, elbise ve astar kullanımında tercih edilen zarif kumaştır."
+                },
+                "oxford": {
+                    "name": "Oxford",
+                    "desc": "Sepet dokuma tekniğiyle üretilen, dayanıklı ve klasik görünümlü gömlek kumaşıdır."
+                },
+                "vual": {
+                    "name": "Vual (Voile)",
+                    "desc": "Çok hafif, nefes alabilen ve ince dokulu yapısıyla yazlık gömlek ve bluzlarda kullanılan kumaştır."
+                },
+                "denim": {
+                    "name": "Denim",
+                    "desc": "Kalın, dayanıklı ve indigo boyalı yapısıyla kot pantolon ve ceket üretiminde kullanılan ikonik kumaştır."
+                },
+                "flanel": {
+                    "name": "Flanel",
+                    "desc": "Yumuşak, hafif tüylü ve sıcak tutan yapısıyla gömlek ve pijama üretiminde tercih edilen konforlu kumaştır."
+                },
+                "keten": {
+                    "name": "Keten (Linen)",
+                    "desc": "Doğal lif, nefes alabilir ve serin tutan özelliğiyle yazlık giyim ve ev tekstilinde kullanılan premium kumaştır."
+                },
+                "sifon": {
+                    "name": "Şifon",
+                    "desc": "İnce, yarı şeffaf ve akışkan yapısıyla elbise ve bluz üretiminde kullanılan zarif kumaştır."
+                },
+                "tafta": {
+                    "name": "Tafta",
+                    "desc": "Sert, parlak ve tok duruşuyla abiye ve dekoratif tekstilde kullanılan lüks kumaştır."
+                },
+                "kadife": {
+                    "name": "Kadife (Velvet)",
+                    "desc": "Havlı yüzeyi, yumuşak ve lüks hissiyatıyla ceket, elbise ve döşemelikte tercih edilen premium kumaştır."
+                },
+                "krep": {
+                    "name": "Krep",
+                    "desc": "Hafif buruşuk yüzeyi ve akışkan yapısıyla elbise ve tunik üretiminde kullanılan zarif kumaştır."
+                },
+                "panama": {
+                    "name": "Panama",
+                    "desc": "Kalın, açık dokulu ve dayanıklı yapısıyla ceket ve döşemelikte kullanılan sağlam kumaştır."
+                },
+                "kanvas": {
+                    "name": "Kanvas",
+                    "desc": "Çok dayanıklı, kalın dokulu yapısıyla çanta, iş kıyafeti ve endüstriyel kullanımda tercih edilen ağır hizmet kumaşıdır."
+                },
+                "sambre": {
+                    "name": "Şambre (Chambray)",
+                    "desc": "Denim benzeri, hafif dokulu yapısıyla günlük giyimde kullanılan rahat kumaştır."
+                },
+                "tencel": {
+                    "name": "Tencel Dokuma",
+                    "desc": "Doğal, çevreci ve yumuşak yüzeyli yapısıyla premium giyimde tercih edilen sürdürülebilir kumaştır."
+                },
+                "viskon": {
+                    "name": "Viskon Dokuma",
+                    "desc": "Akışkan, serin tutan ve yumuşak tuşeli yapısıyla elbise ve bluz üretiminde kullanılan konforlu kumaştır."
+                },
+                "polyester": {
+                    "name": "Polyester Dokuma",
+                    "desc": "Kırışmaya dayanıklı, kolay bakımlı yapısıyla üniforma ve iş kıyafetlerinde tercih edilen fonksiyonel kumaştır."
+                },
+                "astar": {
+                    "name": "Astar Kumaşları",
+                    "desc": "İnce, kaygan ve dayanıklı yapısıyla ceket, mont ve elbise iç yüzeyinde kullanılan pratik kumaştır."
+                }
+            }
+        }
+    },
+    "printing": {
+        "title": "Baskı ve Tasarım Hizmetleri",
+        "subtitle": "Yaratıcılığınızı kumaşla buluşturuyoruz.",
+        "description": "Sınırsız desen çalışmaları ve kumaş üzeri baskı çözümleri.",
+        "design_support": "Özel Tasarım Desteği",
+        "design_desc": "Desen çalışmalarında profesyonel destek ve özgün yaratıcılık.",
+        "flexible_production": "Esnek Üretim",
+        "flexible_desc": "Müşterinin istediği baskıyı, istediği kumaş türüne uygulama esnekliği."
+    },
+    "gallery": {
+        "title": "Görsel Yolculuk",
+        "subtitle": "Bizi Instagram'da takip edin ve üretim süreçlerimizi yakından inceleyin."
+    },
+    "about_page": {
+        "title": "Türkiye’nin Güvenilir Kumaş Çözüm Ortağı – ÖZTAYTEKS",
+        "intro": "ÖZTAYTEKS, dokuma kumaş üretimi ve toptan kumaş tedariki alanında köklü bir geçmişe sahip, İstanbul merkezli profesyonel bir tekstil şirketidir. Kalite, güven ve sürekliliğe verdiğimiz önemle, hem Türkiye hem de dünya genelindeki işletmelere güvenilir kumaş çözümleri sunuyoruz.",
+        "history_title": "Köklerimizden Bugüne",
+        "history_text": "1990’lı yıllardan itibaren sektörde faaliyet gösteren ÖZTAYTEKS, zaman içinde ürün portföyünü genişletmiş, üretim kapasitesini artırmış ve dijital baskı altyapısını kendi tesislerinde kurarak yenilikçi üretim teknolojilerini benimsemiştir. Bugün İstanbul Osmanbey başta olmak üzere, geniş bir müşteri ağıyla hizmet veriyoruz. Bu yolculuk, müşteri memnuniyetine sıkı bağlılık ve sürekli kalite iyileştirme odaklı bir yaklaşımla ilerlemektedir.",
+        "mission_title": "Misyonumuz",
+        "mission_text": "İş ortaklarımıza kaliteli, dayanıklı ve fonksiyonel kumaş çözümleri sunmak; üretim süreçlerini hızlı, güvenilir ve tutarlı hale getirmektir.",
+        "vision_title": "Vizyonumuz",
+        "vision_text": "Tekstil sektöründe lider bir tedarikçi olmak; yerel ve uluslararası marka ve üreticilerle uzun vadeli iş birlikleri kurarak güvenilirliği artırmaktır.",
+        "values_title": "Değerlerimiz",
+        "values": {
+            "quality": "Kalite: Her aşamada kontrol edilen üretim süreçleri",
+            "trust": "Güven: İş ortaklarımızla uzun süreli ilişkiler",
+            "transparency": "Şeffaflık: Açık iletişim ve doğru bilgi",
+            "flexibility": "Esneklik: Müşteri taleplerine hızlı uyum"
+        },
+        "stats_title": "Sayılarla Biz",
+        "stats": {
+            "exp": "25+ Yıllık Tecrübe",
+            "partners": "50+ Global İş Ortağı",
+            "production": "1.000.000+ Metre Yıllık Üretim",
+            "quality": "%100 Kalite Kontrol"
+        },
+        "why_us_title": "Neden Biz?",
+        "why_us_points": [
+            "Tutarlı ve izlenebilir kalite süreçleri",
+            "Zamanında teslimat ve güçlü lojistik",
+            "Esnek üretim seçenekleri",
+            "Yılların verdiği uzmanlık ve sektör bilgisi"
+        ],
+        "cta_title": "Gelin Sizin İçin Çözüm Üretelim",
+        "cta_text": "Her proje ve ihtiyacınıza yönelik özgün kumaş çözümleri üretmek için buradayız. Bize ulaşın; uzman ekibimizle en uygun çözümü birlikte planlayalım."
+    },
+    "contact": {
+        "title": "İletişim Bilgileri",
+        "subtitle": "Merkez ofisimiz, şubelerimiz ve fabrikamızla size en iyi hizmeti sunmak için buradayız.",
+        "intro_title": "Bizimle İletişime Geçin",
+        "intro_subtitle": "Sorularınız, iş birlikleri ve ürün talepleriniz için ekibimizle doğrudan iletişime geçebilirsiniz.",
+        "whatsapp_btn": "Hemen Bize Yaz",
+        "instagram_btn": "Bizi Instagram'da Takip Edin",
+        "locations": {
+            "head_office": {
+                "title": "Merkez Ofis",
+                "address": "Rumeli Caddesi No: 94/A, Osmanbey – İstanbul",
+                "phone": "+90 (212) 233 32 33"
+            },
+            "branch": {
+                "title": "Şube – Geçer Al Suez",
+                "address": "18 Bina 9A, Al-Jokha’nın yanında",
+                "phone": "+90 (539) 594 53 03"
+            },
+            "factory": {
+                "title": "Fabrika",
+                "address": "Feriköy Mahallesi, Bayır Sokak No: 32, Kurtuluş – Şişli / İstanbul",
+                "phone": "+90 (212) 233 75 05"
+            },
+            "merter_branch": {
+                "title": "Merter Şube",
+                "address": "Mehmet Nesih Özmen Mah. Fatih Cad. Söğüt Sok. No: 5/B – 5/F Merter – İstanbul",
+                "phone": "+90 (212) 539 00 69"
+            }
+        },
+        "person": "Ayşe Turan"
+    },
+    "footer": {
+        "description": "1999'dan beri tekstilde kalite ve güvenin adresi. Modern üretim teknolojileriyle yarının modasını şekillendiriyoruz.",
+        "quick_links": "Hızlı Bağlantılar",
+        "products_title": "Ürün Gruplarımız",
+        "contact_title": "İletişim",
+        "rights": "Tüm hakları saklıdır."
+    }
+}

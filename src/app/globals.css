@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Base Colors */
+    --color-background: 249 250 251;
+    --color-surface: 255 255 255;
+    --color-surface-muted: 241 243 245;
+
+    /* Text */
+    --color-text-primary: 31 41 51;
+    --color-text-secondary: 75 85 99;
+
+    /* Brand Colors */
+    --color-primary: 31 41 51;
+    --color-primary-light: 38 49 59;
+    --color-primary-dark: 27 36 45;
+
+    --color-secondary: 139 30 30;
+    /* Darker Beige for contrast on light */
+    --color-secondary-light: 161 38 38;
+    --color-secondary-dark: 115 24 24;
+
+    /* Accent remains similar but checked for contrast */
+    --color-accent: 139 30 30;
+    --color-accent-hover: 115 24 24;
+
+    --color-border: 229 231 235;
+  }
+
+  body {
+    @apply bg-background text-foreground transition-colors duration-300 overflow-x-hidden;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center font-semibold transition-all duration-200 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 rounded-[12px];
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white shadow-sm hover:bg-primary-dark hover:shadow-md focus-visible:shadow-[0_0_0_4px_rgba(31,41,51,0.22)];
+  }
+
+  .btn-outline {
+    @apply border border-border bg-transparent text-primary hover:bg-surface-muted focus-visible:shadow-[0_0_0_4px_rgba(31,41,51,0.14)];
+  }
+
+  .card {
+    @apply bg-surface text-foreground shadow-sm;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
