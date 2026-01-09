@@ -64,23 +64,6 @@ export default function Contact() {
           {/* Left Column: Locations List */}
           <div className="lg:col-span-1 space-y-4 lg:space-y-6">
 
-            {/* Primary Contact Card (Static) */}
-            <div className="bg-white p-5 lg:p-6 rounded-xl shadow-sm border border-slate-200 border-l-4 border-l-amber-600 mb-6 lg:mb-8">
-              <div className="flex items-start space-x-4">
-                <div className="p-2.5 lg:p-3 bg-amber-50 rounded-lg text-amber-700">
-                  <UserIcon className="w-5 h-5 lg:w-6 lg:h-6" />
-                </div>
-                <div>
-                  <h3 className="text-base lg:text-lg font-bold text-slate-900">{t('contact.person') || "Ayşe Turan"}</h3>
-                  <p className="text-xs lg:text-sm text-slate-500 mb-2">Firma Yetkilisi</p>
-                  <a href="tel:+905395945303" className="flex items-center text-slate-700 font-medium hover:text-amber-700 transition-colors text-sm lg:text-base">
-                    <PhoneIcon className="w-4 h-4 mr-2" />
-                    +90 (539) 594 53 03
-                  </a>
-                </div>
-              </div>
-            </div>
-
             {/* Interactive Locations Cards */}
             <div className="space-y-3 lg:space-y-4">
               {locations.map((loc) => (
