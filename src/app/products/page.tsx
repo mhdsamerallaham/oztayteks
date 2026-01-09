@@ -37,12 +37,12 @@ export default function ProductsPage() {
     return (
         <main className="min-h-screen bg-white">
             {/* HERO: IMMERSIVE CATEGORY SELECTOR */}
-            <section className="relative min-h-screen w-full flex flex-col lg:flex-row overflow-hidden pt-16 lg:pt-0">
+            <section className="relative min-h-screen lg:h-screen w-full flex flex-col lg:flex-row overflow-hidden pt-16 lg:pt-0">
                 {categories.map((cat, idx) => (
                     <Link 
                         key={cat.key} 
                         href={cat.href} 
-                        className="group relative flex-1 min-h-[28vh] sm:min-h-[30vh] lg:min-h-0 lg:h-full overflow-hidden transition-all duration-700 ease-in-out lg:hover:flex-[1.5] border-b lg:border-b-0 lg:border-r border-white/10 last:border-b-0 last:lg:border-r-0"
+                        className="group relative flex-1 min-h-[28vh] sm:min-h-[30vh] lg:min-h-screen overflow-hidden transition-all duration-700 ease-in-out lg:hover:flex-[1.5] border-b lg:border-b-0 lg:border-r border-white/10 last:border-b-0 last:lg:border-r-0"
                     >
                         {/* Background Image */}
                         <Image
