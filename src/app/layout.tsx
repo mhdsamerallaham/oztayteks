@@ -36,6 +36,11 @@ export const metadata: Metadata = {
     index: false,
     follow: false,
   },
+  icons: {
+    icon: '/images/OZTAy-Photoroom.png',
+    shortcut: '/images/OZTAy-Photoroom.png',
+    apple: '/images/OZTAy-Photoroom.png',
+  },
 }
 
 export default function RootLayout({
